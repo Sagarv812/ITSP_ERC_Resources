@@ -1,2 +1,2 @@
-# ITSP_ERC_Resources
+# ITSP ERC Resources
 You can find here some useful resources for your ITSP projects.
