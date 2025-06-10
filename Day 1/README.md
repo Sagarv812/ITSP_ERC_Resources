@@ -4,12 +4,23 @@ Here you can find some important resources about our ITSP Bootcamp conducted on 
 
 ## Microcontrollers and Communication
 
-- 📖 Slides: [Click here for slides](./Slides/Presentation-Introduction%20to%20Microcontrollers&Communication.pdf)
+- 📖 [Slides](./resources/Presentation-Introduction%20to%20Microcontrollers&Communication.pdf)
 
 ## Internet of Things (IoT)
 
-- 📖 Slides: [Click here for slides](./Slides/Presentation-Introduction%20to%20IoT.pdf)
+- 📖 [Slides](./resources/Presentation-Introduction%20to%20IoT.pdf)
 
 ## Mechatronics
 
-- 📖 Slides: [Click here for slides](./Slides/Presentation%20-%20Introduction%20to%20Mechatronics.pdf)
+- 📖 [Slides](./resources/Presentation%20-%20Introduction%20to%20Mechatronics.pdf)
+- 📖 A great [book](./resources/Kinematics.pdf) for **Robotics and Control**
+
+---  
+<br>
+
+▶️ If you want to explore a lot more in **Robotics** here's a great [Youtube Channel](https://youtube.com/@articulatedrobotics?si=XyZrdZfTTEk85s-g) to start off with.  
+  
+  
+💻 If you're looking for a complete learning experience on robotics, here is a really good [Course](https://www.coursera.org/specializations/modernrobotics).  
+  
+🍓 If you like to live life dangerously and use a **Raspberry Pi** in your project, here is a really good [Youtube Playlist](https://youtube.com/playlist?list=PLQVvvaa0QuDesV8WWHLLXW_avmTzHmJLv&si=0v8RnbTtrbpWWSBc) to get you started on your Raspberry Pi journey.
