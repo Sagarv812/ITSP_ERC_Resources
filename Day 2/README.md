@@ -1,5 +1,9 @@
 # Resources for Simulation
 
+Welcome to the ITSP Resources page! Here you'll find essential tools and references to support your project development—from simulation and coding to design and testing. These resources are key to building, experimenting, and bringing your ideas to life effectively.
+
+Whether you're setting up your first simulation environment, writing core code, or exploring different platforms for deployment, this page will help you get started. Make sure to explore each section and choose the tools that best fit your team's goals and workflow. Having the right resources at your fingertips can make all the difference.
+
 Find below some great resources for simulating whatever you'll need whether it be in **💡Circuitry, 🤖Robotics, 🦾Mechanics or even 💻Coding**.
 
 ## 🤖 Robotic Simulation
@@ -86,6 +90,4 @@ Find below some great resources for simulating whatever you'll need whether it b
   Available for **VS Code** or any desktop platform.
 
 <br>
-
-
 

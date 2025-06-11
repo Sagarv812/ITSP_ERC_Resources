@@ -115,7 +115,7 @@ This is an excellent option if your project involves drones, autonomous cars, or
 
 ---
 
-### While robotic simulations help visualize movement and interaction, complex systems often need to be modeled at a higher level—where physical dynamics, control systems, and signal flow come into play. That’s where system-level simulators shine.
+While robotic simulations help visualize movement and interaction, complex systems often need to be modeled at a higher level—where physical dynamics, control systems, and signal flow come into play. That’s where system-level simulators shine.
 
 
 <br>
@@ -137,6 +137,16 @@ Simulink, built on top of MATLAB, is a visual environment for simulating and mod
 
 Because of its real-time simulation capabilities and deep integration with embedded code generation, Simulink is widely used in both academia and industry. If your work includes system-level behavior like PID tuning, real-time control, or plant modeling, this is likely your first stop.
 
+[Installation Guide](./assets/Installation_of_MATLAB_and_Simulink.pdf)  
+[Getting started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0&si=RrYuyr39r_VnLaIM)
+
+<div style="display: inline-block;">
+  <img src="assets/simulink.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Models in Simulink</em>
+  </div>
+</div>
+
 ---
 
 ### **Scilab + Xcos** — Free and Open-Source Alternative to Simulink  
@@ -146,6 +156,16 @@ Because of its real-time simulation capabilities and deep integration with embed
 Scilab is a high-level numerical computation platform, and Xcos is its companion block-diagram simulation tool. The layout and function of Xcos are reminiscent of Simulink, making it an ideal entry point for those looking to model continuous and discrete systems without proprietary software.
 
 If your project involves control design, signal processing, or even electrical-mechanical interaction, Xcos can provide many of the same capabilities as Simulink—without the licensing constraints. Its flexibility makes it suitable for initial experimentation and iterative modeling.
+
+[Installation Guide](./assets/Scilab-Installation-Sheet-English.pdf)  
+Some resources to get you started: [Scilab Tutorials](https://www.scilab.org/tutorials)
+
+<div style="display: inline-block;">
+  <img src="assets/scilab.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Models in Scilab</em>
+  </div>
+</div>
 
 ---
 
@@ -157,6 +177,16 @@ Unlike block-based tools, OpenModelica lets you describe systems using actual ma
 
 Ideal for multi-domain physical modeling, OpenModelica shines when you're working with coupled systems—like thermal-electrical-mechanical integration. It’s especially powerful for systems that don't fit neatly into input-output paradigms, and its textual modeling also encourages clean version control and modular reuse.
 
+[Installation Guide](./assets/OpenModelica-Installation-Sheet-English.pdf)  
+Some video tutorials: [Video Tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=OpenModelica&search_language=English)
+
+<div style="display: inline-block;">
+  <img src="assets/openmodelica.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Connection Editor in OpenModelica</em>
+  </div>
+</div>
+
 ---
 
 ### **SimScale** — Cloud-Based FEA & CFD Simulation  
@@ -166,6 +196,15 @@ Ideal for multi-domain physical modeling, OpenModelica shines when you're workin
 SimScale stands out as a fully cloud-native platform focused on **Computational Fluid Dynamics (CFD)** and **Finite Element Analysis (FEA)**. This is where you go if your project demands airflow simulation, stress-strain evaluation, or heat transfer analysis.
 
 With no software installation required, SimScale enables simulations directly from your browser—making it perfect for testing chassis deformation, cooling systems, or aerodynamics. Its intuitive workflows and online community templates speed up your setup process significantly.
+
+Some resources to help you get started: [SimScale Tutorials](https://www.simscale.com/docs/tutorials/)
+
+<div style="display: inline-block;">
+  <img src="assets/simscale.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Model in SimScale</em>
+  </div>
+</div>
 
 ---
 
@@ -190,6 +229,16 @@ LTspice, developed by Analog Devices, is one of the most trusted circuit simulat
 
 What sets LTspice apart is its balance of power and accessibility. You can run detailed transient, AC, DC, and noise analyses with relative ease, and its vast library of components includes accurate models for real-world parts. Ideal for precision-oriented projects where stability, response, or efficiency is key.
 
+[Installation Guide](./assets/LTspice%20Tutorial%20Part%201%20-%20Download%20and%20installation.pdf)  
+Some resources to get you started: [LTspice Tutorials](https://learn.sparkfun.com/tutorials/getting-started-with-ltspice/all)
+
+<div style="display: inline-block;">
+  <img src="assets/ltspice.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Circuit Design in LTspice</em>
+  </div>
+</div>
+
 ---
 
 ### **Falstad Circuit Simulator** — Visual, Fast, and Interactive  
@@ -199,6 +248,15 @@ What sets LTspice apart is its balance of power and accessibility. You can run d
 Sometimes you just need a fast way to check how a circuit behaves. Falstad’s online simulator is perfect for rapid experimentation. Its interactive, animated interface shows real-time voltage, current, and signal behavior—ideal for grasping intuition and debugging smaller circuits.
 
 While it lacks the advanced analysis capabilities of tools like LTspice, its ease of use and instant feedback make it a surprisingly effective platform for prototyping ideas, testing simple configurations, or demonstrating concepts visually.
+
+[Manual](./assets/falstad_manual.pdf)
+
+<div style="display: inline-block;">
+  <img src="assets/falstad.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Circuit Simulation in Falstad</em>
+  </div>
+</div>
 
 ---
 
@@ -210,6 +268,16 @@ QUCS focuses on circuit simulation for more specialized domains, such as RF, ana
 
 The interface feels a bit dated, but the analysis capabilities are impressive—especially when you’re working with S-parameters, impedance matching, or frequency-domain behavior. A good choice for those exploring communications, audio systems, or advanced analog work.
 
+[Installation Guide](https://qucs.sourceforge.net/install.html)  
+Some resources to get you started: [QUCS Tutorial](./assets/qucs_tutorial.pdf)
+
+<div style="display: inline-block;">
+  <img src="assets/qucs.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Circuit Simulation in QUCS</em>
+  </div>
+</div>
+
 ---
 
 ### **EasyEDA** — Cloud-Based Schematic + PCB + SPICE  
@@ -219,6 +287,16 @@ The interface feels a bit dated, but the analysis capabilities are impressive—
 EasyEDA combines multiple aspects of electronics design—schematic creation, circuit simulation, and PCB layout—into a single, web-based interface. Its clean workspace, component library, and integration with the LCSC parts database make it one of the most streamlined platforms for bringing a design from concept to board.
 
 SPICE simulation is built-in, so you can model behavior before moving to layout. Plus, collaboration is seamless—especially useful if you're working in a team and need to iterate quickly across circuit revisions. When you're ready to manufacture, EasyEDA can even connect you directly to PCB fab services.
+
+[Complete Tutorial](./assets/EasyEDA-Tutorial_v6.4.32.pdf)
+
+<div style="display: inline-block;">
+  <img src="assets/easyeda.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>PCB builder in EasyEDA</em>
+  </div>
+</div>
+
 
 ---
 
@@ -243,6 +321,15 @@ Wokwi provides a smooth and fast way to simulate microcontroller setups, especia
 
 It’s perfect for quick validation of logic, testing sensor data flow, or visualizing control behavior. While advanced sensor libraries and hardware integration are limited in the free tier, Wokwi’s convenience makes it ideal for early prototyping and iterative testing.
 
+Some resources to get you started: [Wokwi Docs](https://docs.wokwi.com/)
+
+<div style="display: inline-block;">
+  <img src="assets/wokwi.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Wokwi</em>
+  </div>
+</div>
+
 ---
 
 ### **Tinkercad Circuits** — Visual Coding + Hardware Simulation  
@@ -252,6 +339,16 @@ It’s perfect for quick validation of logic, testing sensor data flow, or visua
 Built by Autodesk, Tinkercad Circuits is a beginner-friendly simulation tool that combines block-based logic (think Scratch) with actual C-style coding. It supports virtual Arduino boards and a limited set of components like LEDs, buttons, and simple sensors.
 
 While it may not scale well for complex projects, it's a fantastic sandbox for logic design, basic coding, and understanding serial input/output behavior. It’s especially useful for testing ideas quickly before wiring up a real breadboard.
+
+[Official Guide](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
+
+<div style="display: inline-block;">
+  <img src="assets/tinkercad.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Tinkercad Circuits</em>
+  </div>
+</div>
+
 
 ---
 
@@ -263,6 +360,15 @@ SimulIDE offers a middle ground—more capable than Wokwi or Tinkercad, but less
 
 For embedded projects involving both circuit-level interactions and logic development, SimulIDE gives enough power to test communication protocols, timing dependencies, and multi-component interaction without steep learning curves.
 
+[Quick Start Guide](https://pcotret.github.io/simulide/)
+
+<div style="display: inline-block;">
+  <img src="assets/simulide.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Simulide</em>
+  </div>
+</div>
+
 ---
 
 ### **Proteus VSM** — Professional-Grade Microcontroller Simulation  
@@ -271,7 +377,17 @@ For embedded projects involving both circuit-level interactions and logic develo
 
 Proteus Virtual System Modelling (VSM) is a comprehensive platform combining circuit simulation with actual microcontroller emulation. It allows you to load compiled HEX or ELF files and run them as if on real hardware—complete with scope visualization, interrupts, and peripheral interaction.
 
-It’s especially useful for debugging complex embedded systems with tight real-time constraints or critical timing loops. While it has a steeper learning curve and requires a license, Proteus is unmatched for deep system-level debugging before deployment.
+It’s especially useful for debugging complex embedded systems with tight real-time constraints or critical timing loops. While it has a steeper learning curve and requires a license (though the free version has plenty capabilities), Proteus is unmatched for deep system-level debugging before deployment.
+
+[Installation Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)  
+[Usage Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)
+
+<div style="display: inline-block;">
+  <img src="assets/proteus.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Microcontroller Simulation in Proteus 8</em>
+  </div>
+</div>
 
 ---
 
@@ -297,6 +413,15 @@ Fusion 360 offers an integrated environment that brings together sketching, para
 
 Whether you're laser-cutting a gear train or simulating the stress on a robotic arm, Fusion 360 scales with your ambition. With version history, real-time collaboration, and tools like generative design and finite element analysis (FEA), it’s a solid choice for teams looking to prototype fast and iterate often.
 
+[Official Tutorials](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-670346CA-4CF8-4009-9E9B-09FCC6803B61)
+
+<div style="display: inline-block;">
+  <img src="assets/fusion.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>3D Design in Fusion 360</em>
+  </div>
+</div>
+
 ---
 
 ### **FreeCAD** — Modular Open-Source Parametric Design  
@@ -307,9 +432,19 @@ FreeCAD is a community-driven alternative that brings robust parametric modeling
 
 Although its UI may feel rougher compared to commercial tools, FreeCAD’s Python scripting support and extensive plugin ecosystem make it surprisingly flexible. Ideal if you're working on very specific workflows or need a customizable design tool without cloud dependency.
 
----
+[Linux Installation](https://wiki.freecad.org/Installing_on_Linux)  
+[Windows Installation](https://wiki.freecad.org/Installing_on_Windows)  
+[macOS Installation](https://wiki.freecad.org/Installing_on_Mac)  
+<br>
+[Tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English)
 
-Both platforms integrate well with workflows involving simulation, fabrication, and even PCB integration—key for teams building hardware-rich systems. Choosing between them often depends on your preference between plug-and-play convenience versus open-source customizability.
+<div style="display: inline-block;">
+  <img src="assets/freecad.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>3D Design in FreeCAD</em>
+  </div>
+</div>
+
 
 ---
 
@@ -334,6 +469,15 @@ The Arduino IDE has long been the go-to environment for working with AVR-based b
 
 While it’s minimal in features, it supports quick testing, real-time serial monitoring, and community-contributed libraries that simplify complex tasks—from reading sensors to controlling motors. Ideal for lightweight or single-board projects where fast iterations matter more than advanced debugging.
 
+[Official Tutorials](https://www.arduino.cc/en/Tutorial/HomePage/)
+
+<div style="display: inline-block;">
+  <img src="assets/arduino.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Sample Code in Arduino IDE</em>
+  </div>
+</div>
+
 ---
 
 ### **PlatformIO** — Full-Stack Embedded Development Environment  
@@ -343,6 +487,16 @@ While it’s minimal in features, it supports quick testing, real-time serial mo
 PlatformIO is a modern alternative that scales up your development stack. It supports a wide range of microcontrollers—from Arduino and ESP32 to STM32 and RP2040—and provides features like IntelliSense, task automation, version control integration, and even unit testing.
 
 Perfect for multi-file projects and when you're collaborating on firmware across a team. PlatformIO also manages library dependencies cleanly and allows multiple environments in a single workspace—making it a favorite for those looking to go beyond basic IDEs.
+
+[Installation Guide](https://docs.platformio.org/en/latest/core/installation/index.html)  
+[Official Tutorials](https://docs.platformio.org/en/latest/tutorials/index.html)
+
+<div style="display: inline-block;">
+  <img src="assets/platformio.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>PlatformIO in VS Code</em>
+  </div>
+</div>
 
 ---
 
