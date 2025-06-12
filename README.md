@@ -15,8 +15,45 @@ Whether you're setting up your first simulation environment, writing core code, 
 
 Let’s dive into some of the most useful platforms across key domains—💡Circuitry, 🤖Robotics, 🦾Mechanics, and 💻Coding—to give your ITSP project the boost it deserves.
 
+## 📚 Table of Contents
 
-## 🧠 Embedded & Microcontroller Simulation
+- [🧠 Embedded & Microcontroller Simulation](#embedded-microcontroller-simulation)
+  - [Wokwi](#wokwi--fast-accessible-arduinoesp32-simulation)
+  - [Tinkercad Circuits](#tinkercad-circuits--visual-coding--hardware-simulation)
+  - [SimulIDE](#simulide--intermediate-circuit--mcu-simulator)
+  - [Proteus VSM](#proteus-vsm--professional-grade-microcontroller-simulation)
+
+- [🤖 Robotic Simulation](#robotic-simulation)
+  - [Gazebo](#gazebo--robust-ros-integrated-physics-simulation)
+  - [Webots](#webots--feature-rich-3d-simulation-ideal-for-ai--swarm-robotics)
+  - [CoppeliaSim](#coppeliasim--flexible-scriptable-and-plugin-ready)
+  - [MORSE](#morse--lightweight-command-line-driven-robotics-simulation)
+  - [AirSim](#airsim--photorealistic-simulation-for-drones-cars--ai)
+
+- [⚙️ Mechatronics & System Simulation](#️mechatronics--system-simulation)
+  - [MATLAB Simulink](#matlab-simulink--industry-standard-for-dynamic-system-modeling)
+  - [Scilab + Xcos](#scilab--xcos--free-and-open-source-alternative-to-simulink)
+  - [OpenModelica](#openmodelica--equation-based-acausal-modeling-environment)
+  - [SimScale](#simscale--cloud-based-fea--cfd-simulation)
+
+- [⚡ Circuit & Electronics Simulation](#circuit--electronics-simulation)
+  - [LTspice](#ltspice--industry-grade-spice-simulation-made-free)
+  - [Falstad](#falstad-circuit-simulator--visual-fast-and-interactive)
+  - [QUCS](#qucs-quite-universal-circuit-simulator--especially-useful-for-rf--analog-design)
+  - [EasyEDA](#easyeda--cloud-based-schematic--pcb--spice)
+
+- [🛠️ CAD/Mechanical Design Tools](#️cadmechanical-design-tools)
+  - [Fusion 360](#fusion-360--cloud-based-3d-cad-with-simulation-and-cam)
+  - [FreeCAD](#freecad--modular-open-source-parametric-design)
+  - [SolidWorks](#solidworks--industry-standard-3d-cad-for-detailed-mechanical-design)
+
+- [💻 Coding & Scripting Environments](#coding--scripting-environments)
+  - [Arduino IDE](#arduino-ide--simple-and-direct-for-microcontroller-development)
+  - [PlatformIO](#platformio--full-stack-embedded-development-environment)
+
+---
+
+## Embedded & Microcontroller Simulation
 
 When you're working with embedded systems, direct hardware access isn’t always possible—or practical. That’s where microcontroller simulation tools come in. These platforms allow you to test firmware, experiment with I/O, and validate timing or logic errors without burning code onto physical chips.
 
@@ -107,7 +144,7 @@ Once your embedded logic is in place, the next step is often testing how it inte
 
 <br>
 
-## 🤖 Robotic Simulation
+## Robotic Simulation
 
 Simulation environments for robotics allow you to prototype faster, refine algorithms in safety, and stress-test edge cases—all without having to physically build your robot every time something changes. Whether you're working on motion planning, control systems, or high-level autonomy, the right simulator helps bridge your design logic with real-world physics and constraints.
 
@@ -220,7 +257,7 @@ While robotic simulations help visualize movement and interaction, complex syste
 
 <br>
 
-## ⚙️ Mechatronics & System Simulation
+## Mechatronics & System Simulation
 
 Designing complex systems often demands a multidisciplinary approach. Whether you're developing motor controllers, dynamic models, or feedback loops for physical systems, simulation tools in this space allow you to predict, test, and optimize before hardware is ever built.
 
@@ -317,7 +354,7 @@ Of course, no system functions in isolation. At some point, signals travel throu
 
 <br>
 
-## ⚡ Circuit & Electronics Simulation
+## Circuit & Electronics Simulation
 
 Whether you're working on power regulation, signal conditioning, or sensor interfaces, circuit simulation is a vital part of verifying your designs before any hardware gets soldered. The tools in this section offer everything from quick prototyping environments to detailed, industry-grade analysis platforms. They're especially helpful when working on embedded systems or integrating microcontrollers with analog components.
 
@@ -409,7 +446,7 @@ While circuit design brings your electronics to life, many ideas also rely on pr
 
 <br>
 
-## 🛠️ CAD/Mechanical Design Tools
+## CAD/Mechanical Design Tools
 
 Design is often the bridge between your concept and its physical realization. Whether you're building chassis, linkages, enclosures, or full mechanical assemblies, CAD (Computer-Aided Design) tools provide the structure and precision required to iterate and manufacture with confidence.
 
@@ -490,7 +527,7 @@ Finally, all these tools need a foundation of code—whether you're building con
 
 <br>
 
-## 💻 Coding & Scripting Environments
+## Coding & Scripting Environments
 
 At the heart of any functional prototype lies code—whether it’s controlling actuators, handling sensor input, or processing logic on embedded platforms. A well-chosen development environment can make or break your workflow, especially when debugging under pressure or collaborating across your team.
 
@@ -544,6 +581,13 @@ Together, Arduino IDE and PlatformIO offer a spectrum—from simplicity to scala
 ### Whether you're simulating sensor behavior, drafting mechanical components, or testing microcontroller logic, the right tools can give your ideas momentum and structure. These resources aren’t just about convenience—they’re about building with intention. Choosing thoughtfully and integrating well can turn rough concepts into working systems faster, with fewer dead ends along the way. Explore, adapt, and make the most of what fits your workflow best.
 
 ---
+
+<p align="center">
+  <sub>
+    Made with ❤️ for ITSP teams<br>
+    by <a href="https://erciitb.github.io/">ERC</a>
+  </sub>
+</p>
 
 
 
