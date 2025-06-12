@@ -239,8 +239,7 @@ Because of its real-time simulation capabilities and deep integration with embed
 
 [Installation Link for IITB Students](http://ftp.iitb.ac.in/ftp/IITB_private/Matlab/)
 
-> **Important Note:** If you are accessing this from outside IITB network, you will need to setup IITB VPN.  
-> Follow this [link](https://www.cc.iitb.ac.in/authenticate/content/tabs/howto/vpn.php) and login with your SSO.
+
 
 [Installation Guide](./assets/Installation_of_MATLAB_and_Simulink.pdf)  
 [Getting started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0&si=RrYuyr39r_VnLaIM)

@@ -23,4 +23,4 @@ Here you can find some important resources about our ITSP Bootcamp conducted on 
   
 💻 If you're looking for a complete learning experience on robotics, here is a really good [Course](https://www.coursera.org/specializations/modernrobotics).  
   
-🍓 If you like to live life dangerously and use a **Raspberry Pi** in your project, here is a really good [Youtube Playlist](https://youtube.com/playlist?list=PLQVvvaa0QuDesV8WWHLLXW_avmTzHmJLv&si=0v8RnbTtrbpWWSBc) to get you started on your Raspberry Pi journey.
+🍓 If you like to live life dangerously and use a **Raspberry Pi** in your project, here is a really good [Youtube Playlist](https://youtube.com/playlist?list=PLLSegLrePWgIDKJTkdLyyQskh2HDdEL3y&si=0nw1077CcYLjMRjI) to get you started on your Raspberry Pi journey.
