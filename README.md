@@ -16,6 +16,97 @@ Whether you're setting up your first simulation environment, writing core code, 
 Let’s dive into some of the most useful platforms across key domains—💡Circuitry, 🤖Robotics, 🦾Mechanics, and 💻Coding—to give your ITSP project the boost it deserves.
 
 
+## 🧠 Embedded & Microcontroller Simulation
+
+When you're working with embedded systems, direct hardware access isn’t always possible—or practical. That’s where microcontroller simulation tools come in. These platforms allow you to test firmware, experiment with I/O, and validate timing or logic errors without burning code onto physical chips.
+
+Whether you're building sensor fusion systems, communication protocols, or motor control routines, simulated environments help speed up the development cycle while catching mistakes early. Each tool listed here offers a different balance between ease of use, extensibility, and realism.
+
+---
+
+### **Wokwi** — Fast, Accessible Arduino/ESP32 Simulation  
+**Website:** [wokwi.com](https://wokwi.com/)  
+**Platform:** Web-based, or via VSCode extension
+
+Wokwi provides a smooth and fast way to simulate microcontroller setups, especially those based on Arduino or ESP32 boards. With a clean drag-and-drop UI and code editor, it lets you wire components virtually and run your C++ code instantly—right in the browser.
+
+It’s perfect for quick validation of logic, testing sensor data flow, or visualizing control behavior. While advanced sensor libraries and hardware integration are limited in the free tier, Wokwi’s convenience makes it ideal for early prototyping and iterative testing.
+
+Some resources to get you started: [Wokwi Docs](https://docs.wokwi.com/)
+
+<div style="display: inline-block;">
+  <img src="assets/wokwi.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Wokwi</em>
+  </div>
+</div>
+
+---
+
+### **Tinkercad Circuits** — Visual Coding + Hardware Simulation  
+**Website:** [tinkercad.com/circuits](https://www.tinkercad.com/circuits)  
+**Platform:** Web-based
+
+Built by Autodesk, Tinkercad Circuits is a beginner-friendly simulation tool that combines block-based logic (think Scratch) with actual C-style coding. It supports virtual Arduino boards and a limited set of components like LEDs, buttons, and simple sensors.
+
+While it may not scale well for complex projects, it's a fantastic sandbox for logic design, basic coding, and understanding serial input/output behavior. It’s especially useful for testing ideas quickly before wiring up a real breadboard.
+
+[Official Guide](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
+
+<div style="display: inline-block;">
+  <img src="assets/tinkercad.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Tinkercad Circuits</em>
+  </div>
+</div>
+
+
+---
+
+### **SimulIDE** — Intermediate Circuit + MCU Simulator  
+**Website:** [simulide.com](https://simulide.com/p/)  
+**Platforms:** Windows, Linux, macOS
+
+SimulIDE offers a middle ground—more capable than Wokwi or Tinkercad, but less complex than professional tools like Proteus. It supports real-time simulation of microcontrollers (like AVR, PIC), and allows visual debugging via scopes and serial monitors.
+
+For embedded projects involving both circuit-level interactions and logic development, SimulIDE gives enough power to test communication protocols, timing dependencies, and multi-component interaction without steep learning curves.
+
+[Quick Start Guide](https://pcotret.github.io/simulide/)
+
+<div style="display: inline-block;">
+  <img src="assets/simulide.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Arduino Simulation in Simulide</em>
+  </div>
+</div>
+
+---
+
+### **Proteus VSM** — Professional-Grade Microcontroller Simulation  
+**Website:** [labcenter.com](https://www.labcenter.com/)  
+**Platform:** Windows-only
+
+Proteus Virtual System Modelling (VSM) is a comprehensive platform combining circuit simulation with actual microcontroller emulation. It allows you to load compiled HEX or ELF files and run them as if on real hardware—complete with scope visualization, interrupts, and peripheral interaction.
+
+It’s especially useful for debugging complex embedded systems with tight real-time constraints or critical timing loops. While it has a steeper learning curve and requires a license (though the free version has plenty capabilities), Proteus is unmatched for deep system-level debugging before deployment.
+
+[Installation Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)  
+[Usage Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)
+
+<div style="display: inline-block;">
+  <img src="assets/proteus.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>Microcontroller Simulation in Proteus 8</em>
+  </div>
+</div>
+
+---
+
+Once your embedded logic is in place, the next step is often testing how it interacts with the real world. Robotic simulators bridge that gap—letting you prototype motion, sensing, and control in dynamic environments before moving to hardware.
+
+
+<br>
+
 ## 🤖 Robotic Simulation
 
 Simulation environments for robotics allow you to prototype faster, refine algorithms in safety, and stress-test edge cases—all without having to physically build your robot every time something changes. Whether you're working on motion planning, control systems, or high-level autonomy, the right simulator helps bridge your design logic with real-world physics and constraints.
@@ -145,6 +236,11 @@ This category of software bridges the gap between mechanical design, electrical 
 Simulink, built on top of MATLAB, is a visual environment for simulating and modeling dynamic systems using block diagrams. It allows you to drag-and-drop components like integrators, gain blocks, or transfer functions to model systems ranging from DC motors to inverted pendulums and beyond.
 
 Because of its real-time simulation capabilities and deep integration with embedded code generation, Simulink is widely used in both academia and industry. If your work includes system-level behavior like PID tuning, real-time control, or plant modeling, this is likely your first stop.
+
+[Installation Link for IITB Students](http://ftp.iitb.ac.in/ftp/IITB_private/Matlab/)
+
+> **Important Note:** If you are accessing this from outside IITB network, you will need to setup IITB VPN.  
+> Follow this [link](https://www.cc.iitb.ac.in/authenticate/content/tabs/howto/vpn.php) and login with your SSO.
 
 [Installation Guide](./assets/Installation_of_MATLAB_and_Simulink.pdf)  
 [Getting started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0&si=RrYuyr39r_VnLaIM)
@@ -309,98 +405,7 @@ SPICE simulation is built-in, so you can model behavior before moving to layout.
 
 ---
 
-Once the circuit design is sound, it's time to bring it to life with logic and code. Microcontroller simulation tools let you prototype firmware and embedded logic even before your hardware arrives.
-
-
-<br>
-
-## 🧠 Embedded & Microcontroller Simulation
-
-When you're working with embedded systems, direct hardware access isn’t always possible—or practical. That’s where microcontroller simulation tools come in. These platforms allow you to test firmware, experiment with I/O, and validate timing or logic errors without burning code onto physical chips.
-
-Whether you're building sensor fusion systems, communication protocols, or motor control routines, simulated environments help speed up the development cycle while catching mistakes early. Each tool listed here offers a different balance between ease of use, extensibility, and realism.
-
----
-
-### **Wokwi** — Fast, Accessible Arduino/ESP32 Simulation  
-**Website:** [wokwi.com](https://wokwi.com/)  
-**Platform:** Web-based, or via VSCode extension
-
-Wokwi provides a smooth and fast way to simulate microcontroller setups, especially those based on Arduino or ESP32 boards. With a clean drag-and-drop UI and code editor, it lets you wire components virtually and run your C++ code instantly—right in the browser.
-
-It’s perfect for quick validation of logic, testing sensor data flow, or visualizing control behavior. While advanced sensor libraries and hardware integration are limited in the free tier, Wokwi’s convenience makes it ideal for early prototyping and iterative testing.
-
-Some resources to get you started: [Wokwi Docs](https://docs.wokwi.com/)
-
-<div style="display: inline-block;">
-  <img src="assets/wokwi.png" alt="Robot Diagram" width="600">
-  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
-    <em>Arduino Simulation in Wokwi</em>
-  </div>
-</div>
-
----
-
-### **Tinkercad Circuits** — Visual Coding + Hardware Simulation  
-**Website:** [tinkercad.com/circuits](https://www.tinkercad.com/circuits)  
-**Platform:** Web-based
-
-Built by Autodesk, Tinkercad Circuits is a beginner-friendly simulation tool that combines block-based logic (think Scratch) with actual C-style coding. It supports virtual Arduino boards and a limited set of components like LEDs, buttons, and simple sensors.
-
-While it may not scale well for complex projects, it's a fantastic sandbox for logic design, basic coding, and understanding serial input/output behavior. It’s especially useful for testing ideas quickly before wiring up a real breadboard.
-
-[Official Guide](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
-
-<div style="display: inline-block;">
-  <img src="assets/tinkercad.png" alt="Robot Diagram" width="600">
-  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
-    <em>Arduino Simulation in Tinkercad Circuits</em>
-  </div>
-</div>
-
-
----
-
-### **SimulIDE** — Intermediate Circuit + MCU Simulator  
-**Website:** [simulide.com](https://simulide.com/p/)  
-**Platforms:** Windows, Linux, macOS
-
-SimulIDE offers a middle ground—more capable than Wokwi or Tinkercad, but less complex than professional tools like Proteus. It supports real-time simulation of microcontrollers (like AVR, PIC), and allows visual debugging via scopes and serial monitors.
-
-For embedded projects involving both circuit-level interactions and logic development, SimulIDE gives enough power to test communication protocols, timing dependencies, and multi-component interaction without steep learning curves.
-
-[Quick Start Guide](https://pcotret.github.io/simulide/)
-
-<div style="display: inline-block;">
-  <img src="assets/simulide.png" alt="Robot Diagram" width="600">
-  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
-    <em>Arduino Simulation in Simulide</em>
-  </div>
-</div>
-
----
-
-### **Proteus VSM** — Professional-Grade Microcontroller Simulation  
-**Website:** [labcenter.com](https://www.labcenter.com/)  
-**Platform:** Windows-only
-
-Proteus Virtual System Modelling (VSM) is a comprehensive platform combining circuit simulation with actual microcontroller emulation. It allows you to load compiled HEX or ELF files and run them as if on real hardware—complete with scope visualization, interrupts, and peripheral interaction.
-
-It’s especially useful for debugging complex embedded systems with tight real-time constraints or critical timing loops. While it has a steeper learning curve and requires a license (though the free version has plenty capabilities), Proteus is unmatched for deep system-level debugging before deployment.
-
-[Installation Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)  
-[Usage Guide](https://www.geeksforgeeks.org/installation-guide/how-to-download-and-install-proteus-software-on-windows/)
-
-<div style="display: inline-block;">
-  <img src="assets/proteus.png" alt="Robot Diagram" width="600">
-  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
-    <em>Microcontroller Simulation in Proteus 8</em>
-  </div>
-</div>
-
----
-
-Many projects involve physical movement or structural components—whether it's a robotic chassis or a simple gear system. That’s where mechanical design tools come into play, bridging the gap between digital logic and real-world form.
+While circuit design brings your electronics to life, many ideas also rely on precisely built physical components to house, move, or interact with them. This is where CAD and mechanical design tools step in—allowing you to model enclosures, assemblies, and entire mechanisms with the same level of control and iteration.
 
 
 <br>
@@ -454,12 +459,30 @@ Although its UI may feel rougher compared to commercial tools, FreeCAD’s Pytho
   </div>
 </div>
 
-
 ---
 
-### SolidWorks
+### **SolidWorks** — Industry-Standard 3D CAD for Detailed Mechanical Design  
+**Website:** [solidworks.com](https://www.solidworks.com/)  
+**Platforms:** Windows only
+
+SolidWorks is a leading CAD platform known for its precision, ease of use, and powerful suite of tools for mechanical design. From single-part modeling to full-scale assemblies, it offers the kind of control and reliability often expected in professional engineering environments.
+
+Its parametric workflow, intuitive sketching system, and advanced features like motion simulation and design validation make it a solid choice for mechanical systems that require exact geometry and real-world performance considerations. Especially valuable when working with moving parts, interlocking components, or detailed fabrication-ready models. While it is a paid software, IITB has an education license which you can access below.
+
 
 [Installation Link + Guide](http://ftp.iitb.ac.in/ftp/IITB_private/SolidWorks/2021/)
+
+> **Important Note:** If you are accessing this from outside IITB network, you will need to setup IITB VPN.  
+> Follow this [link](https://www.cc.iitb.ac.in/authenticate/content/tabs/howto/vpn.php) and login with your SSO.
+
+[Official Manual](./assets/SOLIDWORKS_Introduction_EN.pdf)
+
+<div style="display: inline-block;">
+  <img src="assets/solidworks.png" alt="Robot Diagram" width="600">
+  <div style="text-align: center; width: 100%; font-size: 0.9em; color: gray;">
+    <em>3D Design in SolidWorks</em>
+  </div>
+</div>
 
 ---
 
