@@ -585,7 +585,7 @@ Together, Arduino IDE and PlatformIO offer a spectrum—from simplicity to scala
 <p align="center">
   <sub>
     Made with ❤️ for ITSP teams<br>
-    by <a href="https://erciitb.github.io/">ERC</a>
+    by <a href="https://erc.tech-iitb.org/">ERC</a>
   </sub>
 </p>
 
